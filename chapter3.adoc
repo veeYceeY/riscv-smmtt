@@ -32,7 +32,7 @@ When `XLEN=64`, other than `BARE`, the other valid settings for `MODE` are `Smmt
 
 The remaining `MODE` settings when `XLEN=64` are `reserved` for future use and may define different interpretations of the other fields in `mttp`. 
 
-Table 3.2: Encoding of `mttp` `MODE` field for `XLEN=64`.
+Table 3.1: Encoding of `mttp` `MODE` field for `XLEN=64`.
 [width="100%",cols="10%,14%,76%",options="header",]
 |===
 |Value |Name |Description
@@ -45,7 +45,7 @@ addresses with access allowed/disallowed per page
 physical addresses with RW permissions per page
 |===
 
-Table 3.1: Encoding of `mttp` `MODE` field for `XLEN=32`.
+Table 3.2: Encoding of `mttp` `MODE` field for `XLEN=32`.
 
 [width="100%",cols="10%,14%,76%",options="header",]
 |===
